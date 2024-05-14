@@ -1,3 +1,6 @@
+body{
+    color: #696969;
+}
 navbar {
     display: flex;
     height: 60px;
@@ -25,7 +28,7 @@ navbar a {
 
 .text {
     text-align: center;
-    margin: 100px;
+    margin: 50px;
     opacity: 0;
 }
 
@@ -33,4 +36,24 @@ navbar a {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.text p{
+    margin: 0 auto;
+    width: 90%;
+}
+
+p{
+    line-height: 2;
+}
+h1{
+    letter-spacing: 0.3em;
+}
+h2{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #696969;
 }

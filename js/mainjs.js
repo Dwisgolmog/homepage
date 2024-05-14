@@ -3,9 +3,9 @@ window.addEventListener('scroll', function () {
     elements.forEach(function (element) {
         var position = element.getBoundingClientRect().top;
         var windowHeight = window.innerHeight;
-        if (position < windowHeight) {
+        if (position+300 < windowHeight) {
             element.style.opacity = '1';
-            element.style.transition = 'opacity 3s';
+            element.style.transition = 'opacity 2s';
         } else {
             element.style.opacity = '0';
         }
