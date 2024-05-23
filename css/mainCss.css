@@ -4,8 +4,6 @@ body{
 navbar {
     display: flex;
     height: 60px;
-    align-items: center;
-    justify-content: center;
     border-bottom: 1px solid rgb(218, 214, 214);
     position: fixed;
     top: 0;
@@ -14,16 +12,46 @@ navbar {
     z-index: 999; 
 }
 
-navbar a {
+.left{
     display: flex;
+    width: 10%;
+    
+}
+.center{
+   display: flex;
+   width: 90%;
+   justify-content: center;
+}
+.left a img{
     height: 80%;
-    margin: 5%;
+    margin: 5px;
+    margin-left: 200%;
+}
+.center a img{
+    height: 80%;
+    margin: 5px;
+    margin-left: -15%;
+    margin-right: 100px;
 }
 
 .mainImg {
     width: 100%;
     height: 100vh; 
     object-fit: cover; 
+}
+
+.indexImg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.indexImg img{
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    /* background-size: 200%;
+    background-repeat: no-repeat; */
 }
 
 .text {
