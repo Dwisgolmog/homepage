@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     color: #696969;
+    font-family: 'ChosunKg';
 }
 navbar {
     display: flex;
